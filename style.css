@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+
+}
+h2,h3{
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
+
+.pink {
+    background-color: #EF33B4;
+    padding: 50px 235px 55px;
+}
+
+.pink p {
+    text-align: center;
+    color: #fff;
+}
+
+.p1 {
+    font-family: "Ubuntu", sans-serif;
+    /* margin: 0px; */
+    margin-bottom: 20px;
+    line-height: 33.8px;
+}
+
+.p2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 23.44px;
+    margin: 0px
+}
+
+/* .monitoring {
+    color: #EF33B4;
+    weight:60px;
+    height: 75.65px;
+    margin:0px 0px 20px 290px;
+}
+
+
+.bold{
+    font-family:"Ubuntu" ,sans-serif;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    margin-left: 207px; */
+/* } */
+
+
+#services {
+    background: #F8F8F8;
+    padding-top: 185px;
+    padding-bottom: 100px;
+
+}
+
+
+
+.wrapper {
+    margin: 0px 170px;
+    max-width: 100%;
+}
+
+.box {
+    width: 300px;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom:50px;
+    display: inline-block;
+}
+
+ #services .wrapper .box:nth-child(3n+3){
+    margin-right: 0px;
+}
+.box .img-wrapper{
+    margin-bottom: 20px;
+}
+
+.box h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom :10px;
+    color: #4D4D4D;
+    line-height: 23.4px;
+    
+}
+
+.box p{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    color: #808080;
+    font-size: 16px;
+    line-height: 22px;
+    
+
+}
+
+#sofa .left-side{
+    width: 50%;
+    max-width: 50%;
+    margin-left: 130px;
+    padding-top: 80px;
+    display: inline-block;
+
+
+}
+
+
+#sofa .left-side .title{
+    width: 400px;
+    font-family: "Barlow" ,sans-serif;
+    font-weight: 700;
+    color: #EF33B4;
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+#sofa .left-side .box {
+    text-align: left;
+    width: 270px;
+
+}
+
+#sofa .left-side .box h3{
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    margin-left: 18px;
+    position: relative;
+}
+#sofa .left-side .box h3::before{
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #3B72FF;
+    position: absolute;
+    left: -18px;
+    
+    
+
+}
+
+.right-side{
+    display: inline-block;
+    width: 40%;
+}
+ .right-side img{
+
+    width: 100%;
+    height: 100%;
+
+ }
+
+
+
