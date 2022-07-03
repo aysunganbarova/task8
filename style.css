@@ -64,9 +64,9 @@ p {
 }
 
 .box {
-    width: 300px;
+    width: 30%;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 3.33%;
     margin-bottom:50px;
     display: inline-block;
 }
@@ -120,6 +120,7 @@ p {
 #sofa .left-side .box {
     text-align: left;
     width: 270px;
+    margin-right: 50px;
 
 }
 
@@ -145,13 +146,19 @@ p {
 .right-side{
     display: inline-block;
     width: 40%;
+    position: relative;
 }
- .right-side img{
-
+ .right-side>img{
     width: 100%;
     height: 100%;
 
  }
+ .heart{
+    position: absolute;
+    bottom: 275px;
+    left: -40px;
+ }
+
 
 
 
